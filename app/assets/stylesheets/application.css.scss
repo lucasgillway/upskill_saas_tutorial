@@ -37,12 +37,24 @@ h1,h2,h3 {
 .navbar{
   border: none;
 }
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.navbar-nav {
+  font-family:"Montserrat", "sans-serif";
+  font-weight: 500;
+}
+
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
   color: white;
   &:hover {
     color: white;
     opacity: 0.75;
   }
+  
 }
 
 //Homepage Styles
